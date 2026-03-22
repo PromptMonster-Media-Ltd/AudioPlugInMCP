@@ -3,7 +3,12 @@
     "allow": [
       "Bash(unzip -l /d/Development/AudioPlugInMCP/mcp-audio-plugin-server-v2.zip)",
       "Bash(unzip -p /d/Development/AudioPlugInMCP/mcp-audio-plugin-server-v2.zip mcp-audio-plugin-server/requirements.txt)",
-      "Bash(unzip -p /d/Development/AudioPlugInMCP/mcp-audio-plugin-server-v2.zip mcp-audio-plugin-server/config.yaml)"
+      "Bash(unzip -p /d/Development/AudioPlugInMCP/mcp-audio-plugin-server-v2.zip mcp-audio-plugin-server/config.yaml)",
+      "Bash(npx @anthropic-ai/mcpb pack)",
+      "Read(//d/tmp/**)",
+      "Bash(npx @anthropic-ai/mcpb init --help)",
+      "Bash(npx @anthropic-ai/mcpb init --yes)",
+      "Bash(npx @anthropic-ai/mcpb init --yes --force)"
     ]
   }
 }
